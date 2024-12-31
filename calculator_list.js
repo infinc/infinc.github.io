@@ -19,6 +19,11 @@ const calculators = [
     title: "Mutual Fund SIP Calculator",
     description: "Calculate the returns on your SIP (Systematic Investment Plan) in mutual funds. Input the monthly investment amount, rate of return, and investment duration.",
     link: "mutual_fund_sip_calculator.html"
+  },
+  {
+    title: "Mutual Fund SWP Calculator",
+    description: "Plan your SWP (Systematic Withdrawal Plan) in mutual funds. Input the monthly withdrawal amount, rate of return, and withdrawal duration to calculate your returns.",
+    link: "mutual_fund_swp_calculator.html"
   }
 ];
 
