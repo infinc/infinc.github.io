@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="flex lg:flex-1">
       <a href="index.html" class="flex items-center gap-x-5 -m-1.5 p-1.5">
         <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
-        <label class="text-xl font-semibold text-gray-900 dark:text-white">The Indian Finance Company</label>
+        <label class="text-xl font-semibold text-gray-900 dark:text-white pt-5">The Indian Finance Company</label>
       </a>
     </div>
     <div class="flex items-center">
