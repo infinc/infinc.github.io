@@ -1,11 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-
+  
   const NavBarHtmlElement = 
 `<header class="absolute inset-x-0 top-0 z-50">
   <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="index.html" class="flex items-center gap-x-5 -m-1.5 p-1.5">
-        <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="">
+        <!-- Reserve space for the image -->
+        <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="" style="width: 32px; height: 32px;">
         <label class="text-xl font-semibold text-gray-900 dark:text-white pr-5">The Indian Finance Company</label>
       </a>
     </div>
@@ -21,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
       </label>
     </div>
   </nav>
-</header>`
+</header>`;
 
   document.getElementById("navbar").innerHTML = NavBarHtmlElement;
 });
