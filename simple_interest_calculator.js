@@ -38,24 +38,34 @@ document.addEventListener('DOMContentLoaded', function() {
       <table class="min-w-full divide-y divide-gray-300 dark:divide-gray-700">
         <tbody>
           <tr>
-            <td class="px-4 py-2 text-left">Principal Amount:</td>
-            <td class="px-4 py-2 text-right">₹ ${principal.toLocaleString('en-IN')}</td>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Principal Amount:</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Annual Interest Rate:</td>
-            <td class="px-4 py-2 text-right">${rate} %</td>
+            <td class="px-4 text-left">₹ ${principal.toLocaleString('en-IN')}</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Time:</td>
-            <td class="px-4 py-2 text-right">${time} years</td>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Annual Interest Rate:</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Simple Interest:</td>
-            <td class="px-4 py-2 text-right">${formattedInterest}</td>
+            <td class="px-4 text-left">${rate} %</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Total Amount:</td>
-            <td class="px-4 py-2 text-right">${formattedTotalAmount}</td>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Time:</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-left">${time} years</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Simple Interest:</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-left">${formattedInterest}</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Total Amount:</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-left">${formattedTotalAmount}</td>
           </tr>
         </tbody>
       </table>

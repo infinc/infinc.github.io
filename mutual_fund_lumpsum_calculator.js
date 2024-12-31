@@ -38,24 +38,34 @@ document.addEventListener('DOMContentLoaded', function() {
       <table class="min-w-full divide-y divide-gray-300 dark:divide-gray-700">
         <tbody>
           <tr>
-            <td class="px-4 py-2 text-left">Principal Amount:</td>
-            <td class="px-4 py-2 text-right">₹ ${principal.toLocaleString('en-IN')}</td>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Principal Amount:</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Annual Return Rate:</td>
-            <td class="px-4 py-2 text-right">${rate} %</td>
+            <td class="px-4 text-left">₹ ${principal.toLocaleString('en-IN')}</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Investment Period:</td>
-            <td class="px-4 py-2 text-right">${time} years</td>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Annual Return Rate:</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Total Returns:</td>
-            <td class="px-4 py-2 text-right">${formattedReturns}</td>
+            <td class="px-4 text-left">${rate} %</td>
           </tr>
           <tr>
-            <td class="px-4 py-2 text-left">Future Value:</td>
-            <td class="px-4 py-2 text-right">${formattedFutureValue}</td>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Investment Period:</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-left">${time} years</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Total Returns:</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-left">${formattedReturns}</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-gray-600 dark:text-gray-400 text-left text-sm">Future Value:</td>
+          </tr>
+          <tr>
+            <td class="px-4 text-left">${formattedFutureValue}</td>
           </tr>
         </tbody>
       </table>
