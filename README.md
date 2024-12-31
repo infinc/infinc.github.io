@@ -1,1 +1,1 @@
-[Visit the webiste](https://infinc.github.com)
+[Visit the webiste](https://infinc.github.io)
