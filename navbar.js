@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="flex lg:flex-1">
       <a href="index.html" class="flex items-center gap-x-5 -m-1.5 p-1.5">
         <!-- Reserve space for the image -->
-        <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="" style="width: 32px; height: 32px;">
+        <img class="h-8 w-8" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="" style="width: 32px; height: 32px;">
         <label class="text-lg font-semibold text-gray-900 dark:text-white pr-5 sm:text-xl">The Indian Finance Company</label>
       </a>
     </div>
