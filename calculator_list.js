@@ -31,8 +31,8 @@ function displayCalculators() {
     if (calculator.title.toLowerCase().includes(query) || calculator.description.toLowerCase().includes(query)) {
       const card = `
         <a href="${calculator.link}" class="block bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
-          <h2 class="text-2xl font-bold text-gray-900 dark:text-white">${calculator.title}</h2>
-          <p class="mt-2 text-gray-600 dark:text-gray-300">${calculator.description}</p>
+          <h2 class="text-lg font-bold text-gray-900 dark:text-white md:text-2xl">${calculator.title}</h2>
+          <p class="mt-2 text-sm text-gray-600 dark:text-gray-300 md:text-md">${calculator.description}</p>
         </a>
       `;
       container.innerHTML += card;
